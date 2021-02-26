@@ -1,0 +1,54 @@
+/* @import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap"); */
+
+
+@media screen {
+    body {
+        text-align: center;
+        margin: 0;
+    }
+
+    h1 {
+        margin: 0;
+        padding: 10vw 0 0 0;
+        font-size: clamp(5.0vw, 5vw, 10vw);
+        color: lightblue;
+        font-family: "Courier New", monospace !important;
+    }
+    
+    .counter {
+        padding: 4vw;
+        font-size: clamp(5.0vw, 5vw, 10vw);
+        color: lightblue;
+        font-family: "Courier New", monospace !important;
+    }
+
+    .function {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .function > div {
+        padding: 0 .2vw;
+    }
+
+    button, input  {
+        border-radius: 1vw;
+        text-align: center;
+        padding: 0;
+        height: auto;
+        width: 8vw;
+        color: lightblue;
+        font-size: clamp(1.0vw, -0.875vw + 8.333vw, 5vw);
+        border: .5vw solid lightblue;
+        font-family: "Courier New", monospace !important;
+    }
+
+    button {
+        background-color: lightblue;
+        color: white;
+    }
+
+    button:hover {
+        background-color: lightgray;
+        cursor: pointer;
+    }
